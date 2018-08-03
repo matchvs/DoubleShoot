@@ -1,0 +1,126 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "sheel",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 0.5833333333333334,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 0,
+  "curveData": {
+    "paths": {
+      "bullet": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 255
+            },
+            {
+              "frame": 0.06666666666666667,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "shell": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 0.06666666666666667,
+              "value": 255
+            },
+            {
+              "frame": 0.38333333333333336,
+              "value": 255
+            },
+            {
+              "frame": 0.5833333333333334,
+              "value": 0
+            }
+          ],
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                7,
+                8
+              ],
+              "motionPath": [
+                [
+                  39,
+                  60,
+                  18,
+                  52,
+                  71,
+                  72
+                ]
+              ]
+            },
+            {
+              "frame": 0.5833333333333334,
+              "value": [
+                98.3,
+                45.3
+              ],
+              "motionPath": []
+            }
+          ],
+          "rotation": [
+            {
+              "frame": 0.06666666666666667,
+              "value": 14
+            },
+            {
+              "frame": 0.5833333333333334,
+              "value": -800
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 0.4,
+              "value": 1
+            },
+            {
+              "frame": 0.5833333333333334,
+              "value": 0.2
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0.4,
+              "value": 1
+            },
+            {
+              "frame": 0.5833333333333334,
+              "value": 0.2
+            }
+          ]
+        },
+        "comps": {
+          "cc.Sprite": {
+            "spriteFrame": [
+              {
+                "frame": 0.2833333333333333,
+                "value": {
+                  "__uuid__": "0937986f-6535-44fc-92a7-dc80a1243ebe"
+                }
+              },
+              {
+                "frame": 0.3333333333333333,
+                "value": {
+                  "__uuid__": "9b43152f-d9d1-480e-99ee-cd00e8763202"
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "events": []
+}

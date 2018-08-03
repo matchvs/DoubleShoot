@@ -1,0 +1,43 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "hit1",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 0.02,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "paths": {
+      "gun": {
+        "comps": {
+          "cc.Sprite": {
+            "spriteFrame": [
+              {
+                "frame": 0,
+                "value": {
+                  "__uuid__": "a4e71eda-57a0-446c-a9b4-dd28ffc788a9"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "tank": {
+        "comps": {
+          "cc.Sprite": {
+            "spriteFrame": [
+              {
+                "frame": 0,
+                "value": {
+                  "__uuid__": "ad07d720-efed-451d-ac52-fe6bf83f1b2b"
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "events": []
+}

@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "c8831fe2-43d9-4976-8bdb-b26dc4ca3d81",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "rivaltankDebris4": {
+      "ver": "1.0.3",
+      "uuid": "81b95b52-4710-4666-90bc-2c0879c853e4",
+      "rawTextureUuid": "c8831fe2-43d9-4976-8bdb-b26dc4ca3d81",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 26,
+      "height": 37,
+      "rawWidth": 26,
+      "rawHeight": 37,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

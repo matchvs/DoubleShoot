@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "5506420d-f44a-4f42-b864-d1266c10b45a",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "mytanksBody": {
+      "ver": "1.0.3",
+      "uuid": "130c97c4-6f6c-4efb-bc1d-3d7f8099452e",
+      "rawTextureUuid": "5506420d-f44a-4f42-b864-d1266c10b45a",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 125,
+      "height": 85,
+      "rawWidth": 125,
+      "rawHeight": 85,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

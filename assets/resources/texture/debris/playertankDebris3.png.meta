@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "d2999181-122e-4cda-b270-2729e87c086e",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "playertankDebris3": {
+      "ver": "1.0.3",
+      "uuid": "eab7de72-f1c7-47f3-87f4-7d7d35050340",
+      "rawTextureUuid": "d2999181-122e-4cda-b270-2729e87c086e",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 49,
+      "height": 20,
+      "rawWidth": 49,
+      "rawHeight": 20,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "93a3b1e7-3aa1-4994-9245-978a9dcb80cd",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "mytanksGunbarrelhit1": {
+      "ver": "1.0.3",
+      "uuid": "a4e71eda-57a0-446c-a9b4-dd28ffc788a9",
+      "rawTextureUuid": "93a3b1e7-3aa1-4994-9245-978a9dcb80cd",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 98,
+      "height": 21,
+      "rawWidth": 98,
+      "rawHeight": 21,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
