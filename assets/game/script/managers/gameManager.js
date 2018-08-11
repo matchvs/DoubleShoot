@@ -96,6 +96,11 @@ cc.Class({
             GLB.isRoomOwner = true;
         }
         console.log("玩家：" + netNotify.userID + " state:" + netNotify.state);
+        if (netNotify.userID !== GLB.userInfo.id) {
+            this.isRivalLeave = true;
+        }
+        clientEvent.dispatch(clientEvent.eventType.leaveRoomMedNotify, this.leaveRoom, this);
+        this.gameOver();
     },
 
     kickPlayerNotify: function(kickPlayerNotify) {
