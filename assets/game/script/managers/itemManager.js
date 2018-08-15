@@ -25,7 +25,7 @@ cc.Class({
             if (Game.GameManager.gameState === GameState.Over || !GLB.isRoomOwner) {
                 return;
             }
-            if (this.items.length === 0) {
+            if (this.items && this.items.length === 0) {
                 mvs.engine.sendFrameEvent(JSON.stringify({
                     action: GLB.SHOOT_GUN_ITEM,
                     itemId: this.itemId++
@@ -72,6 +72,7 @@ cc.Class({
     },
 
     onDestroy() {
+        clearInterval(this.scheduleItemId);
         clientEvent.off(clientEvent.eventType.roundStart, this.roundStart, this);
         clientEvent.off(clientEvent.eventType.roundOver, this.roundOver, this);
         clientEvent.off(clientEvent.eventType.gameOver, this.gameOver, this);
