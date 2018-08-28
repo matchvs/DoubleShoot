@@ -380,9 +380,17 @@ cc.Class({
                 Game.SlateManager.hitSlate(cpProto.slateId);
             }
         }
-        Game.PlayerManager.self.move();
-        Game.PlayerManager.rival.move();
-        Game.ItemManager.move();
+        if(Game.PlayerManager) {
+            if(Game.PlayerManager.self) {
+                Game.PlayerManager.self.move();
+            }
+            if(Game.PlayerManager.rival) {
+                Game.PlayerManager.rival.move();
+            }
+        }
+        if(Game.ItemManager) {
+            Game.ItemManager.move();
+        }
     },
 
     sendReadyMsg: function() {
