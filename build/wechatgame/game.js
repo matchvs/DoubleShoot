@@ -4,5 +4,5 @@ window.DOMParser = Parser.DOMParser;
 require('libs/wx-downloader.js');
 wxDownloader.REMOTE_SERVER_ROOT = "https://data.tianziyou.com/matchvsGamesRes/doubleshoot";
 wxDownloader.SUBCONTEXT_ROOT = "";
-require('src/settings.65c6f');
-require('main.754cf');
+require('src/settings.73c08');
+require('main.ffc89');

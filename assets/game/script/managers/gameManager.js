@@ -338,46 +338,48 @@ cc.Class({
     },
 
     frameUpdate: function(rsp) {
-        for (var i = 0; i < rsp.frameItems.length; i++) {
-            if (Game.GameManager.gameState === GameState.Over) {
-                return;
-            }
-            var info = rsp.frameItems[i];
-            var cpProto = JSON.parse(info.cpProto);
-            if (info.cpProto.indexOf(GLB.DIRECTION) >= 0) {
-                if (GLB.userInfo.id === info.srcUserID) {
-                    Game.PlayerManager.self.setDirect(cpProto.direction);
-                } else {
-                    Game.PlayerManager.rival.setDirect(cpProto.direction);
+        if(rsp.frameItems) {
+            for (var i = 0; i < rsp.frameItems.length; i++) {
+                if (Game.GameManager.gameState === GameState.Over) {
+                    return;
                 }
-            }
-            if (info.cpProto.indexOf(GLB.FIRE) >= 0) {
-                if (GLB.userInfo.id === info.srcUserID) {
-                    Game.PlayerManager.self.fire();
-                } else {
-                    Game.PlayerManager.rival.fire();
+                var info = rsp.frameItems[i];
+                var cpProto = JSON.parse(info.cpProto);
+                if (info.cpProto.indexOf(GLB.DIRECTION) >= 0) {
+                    if (GLB.userInfo.id === info.srcUserID) {
+                        Game.PlayerManager.self.setDirect(cpProto.direction);
+                    } else {
+                        Game.PlayerManager.rival.setDirect(cpProto.direction);
+                    }
                 }
-            }
+                if (info.cpProto.indexOf(GLB.FIRE) >= 0) {
+                    if (GLB.userInfo.id === info.srcUserID) {
+                        Game.PlayerManager.self.fire();
+                    } else {
+                        Game.PlayerManager.rival.fire();
+                    }
+                }
 
-            if (info.cpProto.indexOf(GLB.HURT) >= 0) {
-                if (GLB.userInfo.id === cpProto.playerId) {
-                    Game.PlayerManager.self.hurt();
-                } else {
-                    Game.PlayerManager.rival.hurt();
+                if (info.cpProto.indexOf(GLB.HURT) >= 0) {
+                    if (GLB.userInfo.id === cpProto.playerId) {
+                        Game.PlayerManager.self.hurt();
+                    } else {
+                        Game.PlayerManager.rival.hurt();
+                    }
                 }
-            }
-            if (info.cpProto.indexOf(GLB.SHOOT_GUN_ITEM) >= 0) {
-                Game.ItemManager.itemSpawn(cpProto.itemId);
-            }
-            if (info.cpProto.indexOf(GLB.ITEM_GET) >= 0) {
-                Game.ItemManager.itemGet(cpProto.itemId, cpProto.playerId);
-            }
-            if (info.cpProto.indexOf(GLB.SPAWN_SLATE) >= 0) {
-                Game.SlateManager.spawnSlate(info.srcUserID);
-            }
+                if (info.cpProto.indexOf(GLB.SHOOT_GUN_ITEM) >= 0) {
+                    Game.ItemManager.itemSpawn(cpProto.itemId);
+                }
+                if (info.cpProto.indexOf(GLB.ITEM_GET) >= 0) {
+                    Game.ItemManager.itemGet(cpProto.itemId, cpProto.playerId);
+                }
+                if (info.cpProto.indexOf(GLB.SPAWN_SLATE) >= 0) {
+                    Game.SlateManager.spawnSlate(info.srcUserID);
+                }
 
-            if (info.cpProto.indexOf(GLB.SLATE_HITTING) >= 0) {
-                Game.SlateManager.hitSlate(cpProto.slateId);
+                if (info.cpProto.indexOf(GLB.SLATE_HITTING) >= 0) {
+                    Game.SlateManager.hitSlate(cpProto.slateId);
+                }
             }
         }
         if(Game.PlayerManager) {
