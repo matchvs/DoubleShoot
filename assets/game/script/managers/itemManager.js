@@ -56,9 +56,11 @@ cc.Class({
     },
 
     move() {
-        for (var i = 0; i < this.items.length; i++) {
-            if (this.items[i]) {
-                this.items[i].move();
+        if(this.items) {
+            for (var i = 0; i < this.items.length; i++) {
+                if (this.items[i]) {
+                    this.items[i].move();
+                }
             }
         }
     },

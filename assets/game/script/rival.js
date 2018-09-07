@@ -54,17 +54,19 @@ cc.Class({
     },
 
     move() {
-        var dir = this.direction === DirectState.None ? 0 :
-            this.direction === DirectState.Left ? 1 : -1;
-        var deltaX = (1 / GLB.FRAME_RATE) * this.speed * dir;
-        this.targetPosX += deltaX;
-        if (this.targetPosX < -this.limitX) {
-            this.targetPosX = this.limitX + deltaX;
-            this.node.x = this.limitX;
-        }
-        if (this.targetPosX > this.limitX) {
-            this.targetPosX = -this.limitX + deltaX;
-            this.node.x = -this.limitX;
+        if(this.node) {
+            var dir = this.direction === DirectState.None ? 0 :
+                this.direction === DirectState.Left ? 1 : -1;
+            var deltaX = (1 / GLB.FRAME_RATE) * this.speed * dir;
+            this.targetPosX += deltaX;
+            if (this.targetPosX < -this.limitX) {
+                this.targetPosX = this.limitX + deltaX;
+                this.node.x = this.limitX;
+            }
+            if (this.targetPosX > this.limitX) {
+                this.targetPosX = -this.limitX + deltaX;
+                this.node.x = -this.limitX;
+            }
         }
     },
 

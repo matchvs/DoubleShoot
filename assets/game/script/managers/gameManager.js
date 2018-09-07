@@ -339,7 +339,7 @@ cc.Class({
     },
 
     frameUpdate: function(rsp) {
-        if(rsp.frameItems) {
+        if (rsp.frameItems) {
             for (var i = 0; i < rsp.frameItems.length; i++) {
                 if (Game.GameManager.gameState === GameState.Over) {
                     return;
@@ -383,15 +383,18 @@ cc.Class({
                 }
             }
         }
-        if(Game.PlayerManager) {
-            if(Game.PlayerManager.self) {
+        if (Game.GameManager.gameState === GameState.Over) {
+            return;
+        }
+        if (Game.PlayerManager) {
+            if (Game.PlayerManager.self) {
                 Game.PlayerManager.self.move();
             }
-            if(Game.PlayerManager.rival) {
+            if (Game.PlayerManager.rival) {
                 Game.PlayerManager.rival.move();
             }
         }
-        if(Game.ItemManager) {
+        if (Game.ItemManager) {
             Game.ItemManager.move();
         }
     },

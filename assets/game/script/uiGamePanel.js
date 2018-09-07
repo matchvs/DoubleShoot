@@ -102,13 +102,15 @@ cc.Class({
 
     reloadCartridge() {
         setTimeout(function() {
-            this.cartridgeBullets = [].concat(this.nodeDict["cartridge"].children);
-            this.bulletCnt = this.cartridgeBullets.length;
-            for (var i = 0; i < this.cartridgeBullets.length; i++) {
-                this.cartridgeBullets[i].getComponent(cc.Animation).play("reloading");
+            if(this.node) {
+                this.cartridgeBullets = [].concat(this.nodeDict["cartridge"].children);
+                this.bulletCnt = this.cartridgeBullets.length;
+                for (var i = 0; i < this.cartridgeBullets.length; i++) {
+                    this.cartridgeBullets[i].getComponent(cc.Animation).play("reloading");
+                }
+                this.lackBulletAnim.stop();
+                this.lackBulletAnim.node.opacity = 0;
             }
-            this.lackBulletAnim.stop();
-            this.lackBulletAnim.node.opacity = 0;
         }.bind(this), 5000);
     },
 
