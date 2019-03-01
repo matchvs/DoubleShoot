@@ -66,6 +66,6 @@ cc.Class({
     },
 
     update(dt) {
-        this.node.setPositionY(this.node.position.y + (this.speed * dt));
+        this.node.y = this.node.y + (this.speed * dt);
     }
 });
