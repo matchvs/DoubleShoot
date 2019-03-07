@@ -1,0 +1,56 @@
+2019-03-07T03:45:35.857Z - normal: Load ~/.CocosCreator/settings.json
+2019-03-07T03:45:35.860Z - normal: checking language setting...
+2019-03-07T03:45:35.861Z - normal: Language: zh
+2019-03-07T03:45:36.448Z - success: protocol editor-framework registered
+2019-03-07T03:45:36.448Z - success: protocol app registered
+2019-03-07T03:45:36.448Z - success: protocol theme registered
+2019-03-07T03:45:36.448Z - success: protocol packages registered
+2019-03-07T03:45:36.449Z - success: protocol unpack registerred
+2019-03-07T03:45:36.449Z - success: protocol disable-commonjs registerred
+2019-03-07T03:45:36.620Z - normal: connected!
+2019-03-07T03:45:36.622Z - normal: Check project /Users/mac/DoubleShoot
+2019-03-07T03:45:36.624Z - normal: Initializing Cocos2d
+2019-03-07T03:45:36.810Z - normal: Initializing Asset Database
+2019-03-07T03:45:36.834Z - success: protocol uuid registerred
+2019-03-07T03:45:36.834Z - success: protocol db registerred
+2019-03-07T03:45:36.834Z - success: protocol thumbnail registerred
+2019-03-07T03:45:36.835Z - normal: Loading editor/builtin packages
+2019-03-07T03:45:36.849Z - success: anysdk loaded
+2019-03-07T03:45:36.937Z - success: assets loaded
+2019-03-07T03:45:36.940Z - success: builder loaded
+2019-03-07T03:45:36.942Z - success: cocos-analytics loaded
+2019-03-07T03:45:36.945Z - success: console loaded
+2019-03-07T03:45:36.972Z - success: fb-instant-games loaded
+2019-03-07T03:45:36.976Z - success: hierarchy loaded
+2019-03-07T03:45:36.980Z - success: inspector loaded
+2019-03-07T03:45:36.981Z - success: keystore loaded
+2019-03-07T03:45:36.985Z - success: node-library loaded
+2019-03-07T03:45:36.986Z - success: package-asset loaded
+2019-03-07T03:45:36.987Z - success: preferences loaded
+2019-03-07T03:45:36.989Z - success: project-exporter loaded
+2019-03-07T03:45:37.002Z - success: project-importer loaded
+2019-03-07T03:45:37.004Z - success: project-settings loaded
+2019-03-07T03:45:37.008Z - success: ui-kit loaded
+2019-03-07T03:45:37.012Z - success: ui-grid loaded
+2019-03-07T03:45:37.015Z - success: scene loaded
+2019-03-07T03:45:37.017Z - success: sprite-editor loaded
+2019-03-07T03:45:37.020Z - success: store loaded
+2019-03-07T03:45:37.025Z - success: timeline loaded
+2019-03-07T03:45:37.025Z - normal: Loading builtin packages
+2019-03-07T03:45:37.029Z - success: asset-db-debugger loaded
+2019-03-07T03:45:37.030Z - success: color-picker loaded
+2019-03-07T03:45:37.033Z - success: package-manager loaded
+2019-03-07T03:45:37.034Z - success: qqplay-adapter loaded
+2019-03-07T03:45:37.040Z - success: sdkbox loaded
+2019-03-07T03:45:37.044Z - success: tester loaded
+2019-03-07T03:45:37.047Z - success: ui-kit-preview-extra loaded
+2019-03-07T03:45:37.050Z - success: ui-kit-preview loaded
+2019-03-07T03:45:37.052Z - success: ui-tree loaded
+2019-03-07T03:45:37.053Z - success: weapp-adapter loaded
+2019-03-07T03:45:37.799Z - normal: Initializing project /Users/mac/DoubleShoot
+2019-03-07T03:45:37.801Z - normal: Loading packages
+2019-03-07T03:45:37.812Z - success: plugin-matchvs loaded
+2019-03-07T03:45:37.812Z - normal: Watching packages
+2019-03-07T03:45:37.907Z - normal: Run Application
+2019-03-07T03:45:38.827Z - success: preview server running at http://localhost:7456
+2019-03-07T03:45:44.681Z - normal: 1.9.3
