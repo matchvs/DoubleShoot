@@ -126,7 +126,11 @@ cc.Class({
 
     update(dt) {
         if (this.heart > 0) {
-            this.node.x = cc.lerp(this.node.x, this.targetPosX, 4 * dt);
+            this.node.x = this.lerp(this.node.x, this.targetPosX, 4 * dt);
         }
+    },
+    lerp(a, b, r) {
+        return a + (b - a) * r;
     }
+
 });

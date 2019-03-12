@@ -1,56 +1,199 @@
-2019-03-07T03:45:35.857Z - normal: Load ~/.CocosCreator/settings.json
-2019-03-07T03:45:35.860Z - normal: checking language setting...
-2019-03-07T03:45:35.861Z - normal: Language: zh
-2019-03-07T03:45:36.448Z - success: protocol editor-framework registered
-2019-03-07T03:45:36.448Z - success: protocol app registered
-2019-03-07T03:45:36.448Z - success: protocol theme registered
-2019-03-07T03:45:36.448Z - success: protocol packages registered
-2019-03-07T03:45:36.449Z - success: protocol unpack registerred
-2019-03-07T03:45:36.449Z - success: protocol disable-commonjs registerred
-2019-03-07T03:45:36.620Z - normal: connected!
-2019-03-07T03:45:36.622Z - normal: Check project /Users/mac/DoubleShoot
-2019-03-07T03:45:36.624Z - normal: Initializing Cocos2d
-2019-03-07T03:45:36.810Z - normal: Initializing Asset Database
-2019-03-07T03:45:36.834Z - success: protocol uuid registerred
-2019-03-07T03:45:36.834Z - success: protocol db registerred
-2019-03-07T03:45:36.834Z - success: protocol thumbnail registerred
-2019-03-07T03:45:36.835Z - normal: Loading editor/builtin packages
-2019-03-07T03:45:36.849Z - success: anysdk loaded
-2019-03-07T03:45:36.937Z - success: assets loaded
-2019-03-07T03:45:36.940Z - success: builder loaded
-2019-03-07T03:45:36.942Z - success: cocos-analytics loaded
-2019-03-07T03:45:36.945Z - success: console loaded
-2019-03-07T03:45:36.972Z - success: fb-instant-games loaded
-2019-03-07T03:45:36.976Z - success: hierarchy loaded
-2019-03-07T03:45:36.980Z - success: inspector loaded
-2019-03-07T03:45:36.981Z - success: keystore loaded
-2019-03-07T03:45:36.985Z - success: node-library loaded
-2019-03-07T03:45:36.986Z - success: package-asset loaded
-2019-03-07T03:45:36.987Z - success: preferences loaded
-2019-03-07T03:45:36.989Z - success: project-exporter loaded
-2019-03-07T03:45:37.002Z - success: project-importer loaded
-2019-03-07T03:45:37.004Z - success: project-settings loaded
-2019-03-07T03:45:37.008Z - success: ui-kit loaded
-2019-03-07T03:45:37.012Z - success: ui-grid loaded
-2019-03-07T03:45:37.015Z - success: scene loaded
-2019-03-07T03:45:37.017Z - success: sprite-editor loaded
-2019-03-07T03:45:37.020Z - success: store loaded
-2019-03-07T03:45:37.025Z - success: timeline loaded
-2019-03-07T03:45:37.025Z - normal: Loading builtin packages
-2019-03-07T03:45:37.029Z - success: asset-db-debugger loaded
-2019-03-07T03:45:37.030Z - success: color-picker loaded
-2019-03-07T03:45:37.033Z - success: package-manager loaded
-2019-03-07T03:45:37.034Z - success: qqplay-adapter loaded
-2019-03-07T03:45:37.040Z - success: sdkbox loaded
-2019-03-07T03:45:37.044Z - success: tester loaded
-2019-03-07T03:45:37.047Z - success: ui-kit-preview-extra loaded
-2019-03-07T03:45:37.050Z - success: ui-kit-preview loaded
-2019-03-07T03:45:37.052Z - success: ui-tree loaded
-2019-03-07T03:45:37.053Z - success: weapp-adapter loaded
-2019-03-07T03:45:37.799Z - normal: Initializing project /Users/mac/DoubleShoot
-2019-03-07T03:45:37.801Z - normal: Loading packages
-2019-03-07T03:45:37.812Z - success: plugin-matchvs loaded
-2019-03-07T03:45:37.812Z - normal: Watching packages
-2019-03-07T03:45:37.907Z - normal: Run Application
-2019-03-07T03:45:38.827Z - success: preview server running at http://localhost:7456
-2019-03-07T03:45:44.681Z - normal: 1.9.3
+2019-03-12T03:32:49.053Z - normal: Load ~/.CocosCreator/settings.json
+2019-03-12T03:32:49.100Z - normal: Initializing Asset Database
+2019-03-12T03:32:49.102Z - normal: checking language setting...
+2019-03-12T03:32:49.102Z - normal: Language: zh
+2019-03-12T03:32:49.613Z - success: preview server running at http://localhost:7456
+2019-03-12T03:32:49.644Z - success: protocol editor-framework registered
+2019-03-12T03:32:49.644Z - success: protocol app registered
+2019-03-12T03:32:49.644Z - success: protocol theme registered
+2019-03-12T03:32:49.644Z - success: protocol packages registered
+2019-03-12T03:32:49.644Z - success: protocol uuid registerred
+2019-03-12T03:32:49.644Z - success: protocol db registerred
+2019-03-12T03:32:49.644Z - success: protocol thumbnail registerred
+2019-03-12T03:32:49.644Z - success: protocol unpack registerred
+2019-03-12T03:32:49.644Z - success: protocol disable-commonjs registerred
+2019-03-12T03:32:49.819Z - normal: connected!
+2019-03-12T03:32:49.821Z - normal: Check project /Users/mac/DoubleShoot
+2019-03-12T03:32:49.822Z - normal: Initializing project /Users/mac/DoubleShoot
+2019-03-12T03:32:50.295Z - normal: Initializing Cocos2d
+2019-03-12T03:32:50.781Z - normal: Initializing engine extends
+2019-03-12T03:32:50.820Z - success: asset-db-debugger loaded
+2019-03-12T03:32:50.821Z - success: color-picker loaded
+2019-03-12T03:32:50.885Z - success: fb-audience-network loaded
+2019-03-12T03:32:50.921Z - success: fb-live-stream loaded
+2019-03-12T03:32:50.923Z - success: google-play-instant loaded
+2019-03-12T03:32:50.926Z - success: huawei-runtime loaded
+2019-03-12T03:32:50.927Z - success: jsb-adapter loaded
+2019-03-12T03:32:50.929Z - success: oppo-runtime loaded
+2019-03-12T03:32:50.937Z - success: package-manager loaded
+2019-03-12T03:32:51.031Z - success: qqplay-adapter loaded
+2019-03-12T03:32:51.032Z - success: runtime-dev-tools loaded
+2019-03-12T03:32:51.040Z - success: sdkbox loaded
+2019-03-12T03:32:51.046Z - success: tester loaded
+2019-03-12T03:32:51.055Z - success: ui-grid loaded
+2019-03-12T03:32:51.061Z - success: ui-kit-preview-extra loaded
+2019-03-12T03:32:51.068Z - success: ui-kit-preview loaded
+2019-03-12T03:32:51.074Z - success: ui-kit loaded
+2019-03-12T03:32:51.079Z - success: ui-tree loaded
+2019-03-12T03:32:51.082Z - success: vivo-runtime loaded
+2019-03-12T03:32:51.082Z - success: weapp-adapter loaded
+2019-03-12T03:32:51.132Z - success: assets loaded
+2019-03-12T03:32:51.140Z - success: builder loaded
+2019-03-12T03:32:51.330Z - success: cocos-services loaded
+2019-03-12T03:32:51.339Z - success: console loaded
+2019-03-12T03:32:51.367Z - success: fb-instant-games loaded
+2019-03-12T03:32:51.369Z - success: google-instant-games loaded
+2019-03-12T03:32:51.379Z - success: hierarchy loaded
+2019-03-12T03:32:51.388Z - success: inspector loaded
+2019-03-12T03:32:51.389Z - success: keystore loaded
+2019-03-12T03:32:51.396Z - success: node-library loaded
+2019-03-12T03:32:51.398Z - success: package-asset loaded
+2019-03-12T03:32:51.398Z - success: preferences loaded
+2019-03-12T03:32:51.405Z - success: project-exporter loaded
+2019-03-12T03:32:51.413Z - success: project-importer loaded
+2019-03-12T03:32:51.421Z - success: project-settings loaded
+2019-03-12T03:32:51.428Z - success: scene loaded
+2019-03-12T03:32:51.430Z - success: simulator-debugger loaded
+2019-03-12T03:32:51.432Z - success: sprite-editor loaded
+2019-03-12T03:32:51.440Z - success: store loaded
+2019-03-12T03:32:51.451Z - success: timeline loaded
+2019-03-12T03:32:51.461Z - success: plugin-matchvs loaded
+2019-03-12T03:32:52.781Z - info: Cocos Services load base data!
+2019-03-12T03:32:56.479Z - normal: Loading packages
+2019-03-12T03:32:56.483Z - normal: Watching packages
+2019-03-12T03:32:56.572Z - normal: Run Application
+2019-03-12T03:33:00.790Z - warn: Please change the definition of property 'loseClip' in class 'uiResult'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    loseClip: cc.Texture2D,
+    // or:
+    loseClip: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    loseClip: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-03-12T03:33:00.791Z - warn: Please change the definition of property 'victoryClip' in class 'uiResult'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    victoryClip: cc.Texture2D,
+    // or:
+    victoryClip: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    victoryClip: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-03-12T03:33:00.795Z - warn: Please change the definition of property 'loseClip' in class 'uiVsResult'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    loseClip: cc.Texture2D,
+    // or:
+    loseClip: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    loseClip: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-03-12T03:33:00.795Z - warn: Please change the definition of property 'victoryClip' in class 'uiVsResult'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    victoryClip: cc.Texture2D,
+    // or:
+    victoryClip: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    victoryClip: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-03-12T03:33:00.803Z - warn: Please change the definition of property 'fireClip' in class 'player'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    fireClip: cc.Texture2D,
+    // or:
+    fireClip: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    fireClip: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-03-12T03:33:00.804Z - warn: Please change the definition of property 'hurtClip' in class 'player'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    hurtClip: cc.Texture2D,
+    // or:
+    hurtClip: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    hurtClip: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-03-12T03:33:00.804Z - warn: Please change the definition of property 'deadClip' in class 'player'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    deadClip: cc.Texture2D,
+    // or:
+    deadClip: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    deadClip: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-03-12T03:33:00.806Z - warn: Please change the definition of property 'explosionClip' in class 'shootgunItem'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    explosionClip: cc.Texture2D,
+    // or:
+    explosionClip: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    explosionClip: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-03-12T03:33:00.809Z - warn: Please change the definition of property 'bgmAudio' in class 'uiGamePanel'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    bgmAudio: cc.Texture2D,
+    // or:
+    bgmAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    bgmAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
